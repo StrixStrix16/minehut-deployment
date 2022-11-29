@@ -48,7 +48,7 @@ public class DeploymentInformation {
     }
 
     public String buildJavaCommand() {
-        String cmd = "-Ddeployed=1 ";
+        String cmd = "java ";
 
         cmd += "-jar " + jarName;
 
